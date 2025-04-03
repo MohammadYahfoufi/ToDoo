@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="45.png" type="image/icon type">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+</head>
+
+<body>
+  <div id="loginPopup" class="popup-container">
+    <div class="popup-content">
+      <span class="close" onclick="closeLoginPopup()">&times;</span>
+      <h2>Login</h2>
+      <form action="login.php" method="POST">
+        <label for="uname">Username:</label>
+        <input type="text" name="uname" id="uname"><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" required><br><br>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </div>
+
+  <div id="signupPopup" class="popup-container">
+    <div class="popup-content">
+      <span class="close" onclick="closeSignupPopup()">&times;</span>
+      <h2>Signup</h2>
+      <form action="register.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="uname">Username:</label>
+        <input type="text" name="uname" id="uname">
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass">
+        <!-- <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br> -->
+        <input type="submit" value="Signup" >
+      </form>
+    </div>
+  </div>
+  <div class="preloader"></div>
+  <div class="logo-nav">FOODIE</div>
+  <nav class="navbar">
+    <div class="brand-title"><a href="#"></a></div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="AboutUs.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><button class="btnLogin-popup" onclick="openLoginPopup()">Login</button></li>
+        <li><button class="btnLogin-popup" onclick="openSignupPopup()">Signup</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="background1"></div>
+  <div class="mid">
+    <center>
+      <div class="container">
+        <h1><span class="auto-type"></span></h1>
+      </div>
+      <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["Happy as Can Be"],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true
+        })
+      </script>
+      <script src="script.js"></script>
+      <br><a href="#recipe-header"><button class="btnRecipe">Check Recipes</button></a>
+    </center>
+  </div>
+
+  <div class="quotecard">
+    <img src="quotes.png" style="align-self: flex-start;" id="shrink" class="quoteimg">
+    <h1 id="shrink-quote" class="quote" style="align-items: flex-end;">
+      “A recipe has no soul,
+      you as the cook, must
+      bring soul to the
+      recipe.”
+      <br>
+      <hr class="quotehr">
+      <span style="font-size: 1.5vw;">Thomas Keller</span>
+      <br><br>
+      “Eating is a necessity but cooking is an art.”
+      <br>
+      <hr class="quotehr">
+      <span style="font-size: 1.5vw;">François de Rochefoucald</span>
+    </h1>
+  </div>
+  <div class="clipped"></div>
+  <div class="recipes-header" id="recipe-header">
+    <h1>Explore Your Cravings</h1>
+  </div>
+  <div class="div-container">
+    <div class="container1" id="cont1">
+      <a href="healthy.php">      <div class="card">
+        <img src="saladd.png" alt="Salad" class="img">
+        <div class="intro">
+          <h1>Recipes are in here</h1>
+          <p>Eating <span class="introsp">healthy </span>food fills your body with energy and nutrients. Imagine your
+            cells smiling back at you and saying: thanks you.</p>
+        </div>
+      </div></a>
+
+     
+
+    </div>
+  </div>
+
+  <center>
+    <div class="slideshow-container">
+      <img class="active fade-in"
+        src="k2FPhoto2FRecipe20Ramp20Up2F2022-04-Strawberry-Cheesecake2Fstrawberry-cheesecake-4.png">
+      <img class="fade-in" src="46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg">
+      <img class="fade-in" src="food-steak-meat-soup.jpg">
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+  </center>
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="logista"><img src="logista.png" alt=""></i>
+          <span class="logo_name">FOODIE</span>
+        </div>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/share/HsvCGgt87GaBH4xj/"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/foodietruck.lb/?igsh=NXhoMXlib2I1dDFo"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://youtu.be/cPKPDpYqIwE?si=TvZmox4oz3wfPpg1"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Website</li>
+          <li><a href="#">Home</a></li>
+
+          <li><a href="AboutUs.html">About us</a></li>
+          <li><a href="#">Get started</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">SITE MAP</li>
+          <li><a href="#">Recipes & Menus</a></li>
+          <li><a href="#AboutUs.html">Expert Advice</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Account</li>
+          <li><a href="profile.php">Profile</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Help & Support</li>
+          <li><a href="contact.html">Contact us</a></li>
+
+        </ul>
+        <ul class="box input-box">
+          <form action="subscribe.php" method="post">
+          <li class="link_name">Subscribe</li>
+          <li><input type="email" id="email" name="email" placeholder="Enter your email" required></li>
+          <li><input type="submit" value="Subscribe" id="subscribe"></li>
+          </form>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2021 <a href="#">FOODIE.</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var slideIndex = 1;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("fade-in");
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+
+      if (slideIndex < 1) {
+        slideIndex = slides.length;
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+    function changeSlide(n) {
+      slideIndex += n;
+      showSlides();
+    }
+
+    setInterval(function () {
+      changeSlide(1);
+    }, 4000);
+  </script>
+</body>
+</html>
