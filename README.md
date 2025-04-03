@@ -47,8 +47,6 @@ It’s like social media — if social media made you better.
 |-------|----------|------|------------|-------|
 | ![1](screenshots/1.jpg) | ![2](screenshots/2.jpg) | ![3](screenshots/3.jpg) | ![4](screenshots/4.jpg) | ![7.5](screenshots/7.5.jpg) |
 
-> You can name these `1.jpg`, `2.jpg`, etc. — or rename them for clarity (like `login.jpg`, `register.jpg`, etc.)
-
 ---
 
 ## 🛠 Built With
