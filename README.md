@@ -157,6 +157,3 @@ This isn’t another noisy app.
 This is your **productive corner of the digital world**.
 
 ---
-
->>>>>>> 0cf6d07 (Added project description and screenshots to README)
-
