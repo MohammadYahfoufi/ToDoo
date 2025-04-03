@@ -43,9 +43,28 @@ It’s like social media — if social media made you better.
 
 ## 📸 Screenshots
 
-| Login | Register | Home | Discussion | Timer |
-|-------|----------|------|------------|-------|
-| ![1](screenshots/1.jpg) | ![2](screenshots/2.jpg) | ![3](screenshots/3.jpg) | ![4](screenshots/4.jpg) | ![7.5](screenshots/7.5.jpg) |
+## 📸 Screenshots
+
+| 1 | 2 | 3 | 4 |
+|---|---|---|---|
+| ![](screenshots/1.jpg) | ![](screenshots/2.jpg) | ![](screenshots/3.jpg) | ![](screenshots/4.jpg) |
+
+| 5 | 6 | 7 | 7.5 |
+|---|---|---|-----|
+| ![](screenshots/5.jpg) | ![](screenshots/6.jpg) | ![](screenshots/7.jpg) | ![](screenshots/7.5.jpg) |
+
+| 8 | 9 | 10 | 11 |
+|---|---|----|----|
+| ![](screenshots/8.jpg) | ![](screenshots/9.jpg) | ![](screenshots/10.jpg) | ![](screenshots/11.jpg) |
+
+| 12 | 13 | 14 | 15 |
+|----|----|----|----|
+| ![](screenshots/12.jpg) | ![](screenshots/13.jpg) | ![](screenshots/14.jpg) | ![](screenshots/15.jpg) |
+
+| 16 |
+|-----|
+| ![](screenshots/16.jpg) |
+
 
 ---
 
