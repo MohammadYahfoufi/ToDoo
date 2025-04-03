@@ -43,27 +43,15 @@ It’s like social media — if social media made you better.
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
+| 1 | 2 | 3 |
+|---|---|---|
+| ![](screenshots/1.jpg) | ![](screenshots/2.jpg) | ![](screenshots/3.jpg) |
+| ![](screenshots/4.jpg) | ![](screenshots/5.jpg) | ![](screenshots/6.jpg) |
+| ![](screenshots/7.jpg) | ![](screenshots/7.5.jpg) | ![](screenshots/8.jpg) |
+| ![](screenshots/9.jpg) | ![](screenshots/10.jpg) | ![](screenshots/11.jpg) |
+| ![](screenshots/12.jpg) | ![](screenshots/13.jpg) | ![](screenshots/14.jpg) |
+| ![](screenshots/15.jpg) | ![](screenshots/16.jpg) | |
 
-| 1 | 2 | 3 | 4 |
-|---|---|---|---|
-| ![](screenshots/1.jpg) | ![](screenshots/2.jpg) | ![](screenshots/3.jpg) | ![](screenshots/4.jpg) |
-
-| 5 | 6 | 7 | 7.5 |
-|---|---|---|-----|
-| ![](screenshots/5.jpg) | ![](screenshots/6.jpg) | ![](screenshots/7.jpg) | ![](screenshots/7.5.jpg) |
-
-| 8 | 9 | 10 | 11 |
-|---|---|----|----|
-| ![](screenshots/8.jpg) | ![](screenshots/9.jpg) | ![](screenshots/10.jpg) | ![](screenshots/11.jpg) |
-
-| 12 | 13 | 14 | 15 |
-|----|----|----|----|
-| ![](screenshots/12.jpg) | ![](screenshots/13.jpg) | ![](screenshots/14.jpg) | ![](screenshots/15.jpg) |
-
-| 16 |
-|-----|
-| ![](screenshots/16.jpg) |
 
 
 ---
