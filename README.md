@@ -8,7 +8,7 @@ It’s a thoughtfully designed **productivity platform** that goes beyond checkl
 ## 🧠 What Makes ToDoo Unique?
 
 In a world dominated by apps that encourage procrastination, ToDoo is different. Here's how:
-<<<<<<< HEAD
+
 
 ### ✍️ Smart To-Do Lists  
 - Add tasks with titles, notes, and priority.
